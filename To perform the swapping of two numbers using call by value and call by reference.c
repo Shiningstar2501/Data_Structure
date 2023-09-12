@@ -1,0 +1,3 @@
+To perform the swapping of two numbers using call by value and call by reference.
+#include<stdio.h> #include<conio.h> void swapbyvalue(int,int); void swapbyref(int*,int*); void main() { int a,b; clrscr(); printf("Enter the two numbers"); scanf("%d%d",&a,&b); swapbyvalue(a,b); swapbyref(&a,&b); printf("\nNumber after swapping by Reference\n"); printf("\na=%d\nb=%d",a,b); getch(); } void swapbyvalue(int x, int y) { int temp; temp=x; x=y;
+y=temp; printf("\nNumbers after swapping by value are\n"); printf("a=%d",x); printf("\nb=%d",y); } void swapbyref(int *x,int *y) { int temp; temp=*x; *x=*y; *y=temp; }

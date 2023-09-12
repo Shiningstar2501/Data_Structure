@@ -1,0 +1,2 @@
+To implement Bubble Sort.
+#include<stdio.h> #include<conio.h> void bubble} bubble(a,n); getch(); } void bubble(int a[],int n) { int i,temp,j,p; for(i=1;i<n;i++) { for(p=0;p<n-i;p++) { if(a[p]>a[p+1]) { temp=a[p]; a[p]=a[p+1]; a[p+1]=temp; } } } for(i=0;i<n;i++) printf("\n%d",a[i]); }
